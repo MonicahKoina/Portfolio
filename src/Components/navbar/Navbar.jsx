@@ -1,24 +1,19 @@
-import React from 'react'
+import React from "react";
 
 function Navbar() {
   return (
     <>
-    <div>
-        <div className="">
-            <h1>Monicah Mugure Koina</h1>
-        </div>
+      <nav>
+        <h1>Monicah Mugure Koina</h1>
         <div>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>My Skills</li>
-                <li>My Work</li>
-                <li>Contact me</li>
-            </ul>
+          <p>About</p>
+          <p>Skills</p>
+          <p>Projects</p>
+          <p>Contact Me</p>
         </div>
-    </div>
+      </nav>
     </>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

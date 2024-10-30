@@ -1,4 +1,4 @@
-import Navbar from './Components/navbar/Navbar'
+import Layout from './Components/Layout/Layout'
 import './index.css'
 import React from 'react'
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-    <Navbar/>
+    <Layout/>
     </>
   )
 }
