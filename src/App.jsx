@@ -1,3 +1,4 @@
+import Navbar from './Components/navbar/Navbar'
 import './index.css'
 import React from 'react'
 function App() {
@@ -5,8 +6,7 @@ function App() {
 
   return (
     <>
-    <div className='w-3/4 bg-black'>
-      <h1>hello</h1></div>
+    <Navbar/>
     </>
   )
 }
